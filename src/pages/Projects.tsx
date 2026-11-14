@@ -1,9 +1,9 @@
-import SectionTitle from "../components/SectionTitle";
+import ProjectList from "../components/ProjectList";
 
 export default function Projects() {
   return (
     <div className="page">
-      <SectionTitle>My Projects</SectionTitle>
+      <ProjectList />
     </div>
   );
 }

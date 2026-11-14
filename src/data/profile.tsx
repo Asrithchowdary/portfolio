@@ -1,15 +1,17 @@
 export const profile = {
   name: "Asrith Chowdary",
   handle: "@asrithchowdary",
-  role: "Python Developer",
+  role: "Software Developer · Python Backend, AI/ML & Agentic AI",
   location: "Hyderabad, India",
   timeZone: "Asia/Kolkata",
   bio: [
-    "Hi, I'm a **Python Developer** with Java full-stack and backend internship experience.",
-    "Building **GenAI applications**, **RAG pipelines** and **agentic workflows** with LangChain and LangGraph.",
-    "Shipped projects like **ResearchMind**, a multi-agent research system, and a **RAG resume chatbot**.",
+    "Hi, I'm a **Software Developer** focused on **Python backend** with **AI/ML** and **Agentic AI**.",
+    "Building **RAG pipelines**, **multi-agent workflows** and LLM-powered APIs with LangChain, LangGraph and FastAPI, using **ChromaDB** and **FAISS** for retrieval.",
+    "Also experienced in **Java full-stack** development with Spring Boot, MySQL and React.",
   ],
   github: "https://github.com/Asrithchowdary",
   linkedin: "https://www.linkedin.com/in/asrith-chowdary",
   email: "asrithchowdary11@gmail.com",
+  leetcode: "https://leetcode.com/u/AsrithKC/",
+  neetcode: "https://neetcode.io/user/FatalKakarot301",
 };

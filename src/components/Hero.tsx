@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaHeart } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaHeart, FaCode } from "react-icons/fa";
 import { profile } from "../data/profile";
+import { SiLeetcode } from "react-icons/si";
 
 function useClock(timeZone: string) {
   const [time, setTime] = useState("");
@@ -86,6 +87,8 @@ export default function Hero() {
         <span>|</span>
         <a href={profile.github} target="_blank" rel="noopener noreferrer" className="mini-btn"><FaGithub /></a>
         <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="mini-btn"><FaLinkedin /></a>
+        <a href={profile.leetcode} target="_blank" rel="noopener noreferrer" className="mini-btn" aria-label="LeetCode"><SiLeetcode /></a>
+        <a href={profile.neetcode} target="_blank" rel="noopener noreferrer" className="mini-btn" aria-label="NeetCode"><FaCode /></a>
       </div>
     </section>
   );

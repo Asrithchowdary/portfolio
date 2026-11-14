@@ -123,3 +123,20 @@ body {
   .hero-name { font-size: 1.2rem; }
   .social-cards { flex-direction: column; }
 }
+
+/* Projects */
+.projects { margin-top: 32px; padding-bottom: 40px; }
+.project-card { margin-bottom: 20px; }
+.project-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.project-name { font-size: 1.1rem; font-weight: 600; }
+.project-badge {
+  display: inline-block; margin-top: 6px; padding: 2px 8px; font-size: 10px; font-weight: 600;
+  letter-spacing: .3px; color: #fafafa; background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+  border-radius: 4px; box-shadow: 0 2px 8px #00000080;
+}
+.project-desc { margin: 12px 0; font-size: .8rem; line-height: 1.6; color: var(--text-2); }
+.project-tech { display: flex; flex-wrap: wrap; gap: 8px; }
+.project-tech span {
+  padding: 2px 8px; font-size: .75rem; font-weight: 500; color: #e5e5e5;
+  background: var(--surface); border-radius: 3px; box-shadow: inset 0 0 0 1px #ffffff14;
+}
