@@ -1,10 +1,11 @@
-import SectionTitle from "../components/SectionTitle";
+import Hero from "../components/Hero";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
     <div className="page">
-      <SectionTitle>Home</SectionTitle>
-      <div className="dashed-card">Hero goes here next.</div>
+      <Hero />
+      <Skills />
     </div>
   );
 }
