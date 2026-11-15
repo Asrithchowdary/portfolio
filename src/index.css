@@ -255,3 +255,5 @@ body {
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
   margin-top: 24px; font-size: .78rem; color: #666; font-family: var(--font-mono);
 }
+
+.footer-bottom { justify-content: center;}

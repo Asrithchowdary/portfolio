@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaArrowRight, FaGithub, FaStar } from "react-icons/fa";
+import { FaArrowRight, FaStar } from "react-icons/fa";
 import { profile } from "../data/profile";
 import { projects } from "../data/projects";
 
@@ -52,9 +52,6 @@ export default function MoreProjects() {
         <button type="button" className="view-all-btn" onClick={toggle}>
           {open ? "Show less" : "More Projects"} <FaArrowRight size={11} />
         </button>
-        <a href={allRepos} target="_blank" rel="noopener noreferrer" className="view-all-btn">
-          All repositories <FaGithub size={13} />
-        </a>
       </div>
 
       {open && (

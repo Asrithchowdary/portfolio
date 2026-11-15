@@ -11,7 +11,7 @@ export const profile = {
   ],
   github: "https://github.com/Asrithchowdary",
   githubUser: "Asrithchowdary",
-  linkedin: "https://www.linkedin.com/in/asrith-chowdary",
+  linkedin: "https://www.linkedin.com/in/kolla-asrith-chowdary-7305a232/",
   email: "asrithchowdary11@gmail.com",
   emailLink: "https://mail.google.com/mail/?view=cm&fs=1&to=asrithchowdary11@gmail.com",
   leetcode: "https://leetcode.com/u/AsrithKC/",
