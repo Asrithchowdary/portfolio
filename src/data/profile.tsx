@@ -1,7 +1,7 @@
 export const profile = {
   name: "Asrith Chowdary",
   handle: "@asrithchowdary",
-  role: "Software Developer · Python Backend, AI/ML & Agentic AI",
+  role: "Software Developer",
   location: "Hyderabad, India",
   timeZone: "Asia/Kolkata",
   bio: [
@@ -10,8 +10,10 @@ export const profile = {
     "Also experienced in **Java full-stack** development with Spring Boot, MySQL and React.",
   ],
   github: "https://github.com/Asrithchowdary",
+  githubUser: "Asrithchowdary",
   linkedin: "https://www.linkedin.com/in/asrith-chowdary",
   email: "asrithchowdary11@gmail.com",
   leetcode: "https://leetcode.com/u/AsrithKC/",
   neetcode: "https://neetcode.io/user/FatalKakarot301",
+  qrValue: "mailto:asrithchowdary11@gmail.com",
 };

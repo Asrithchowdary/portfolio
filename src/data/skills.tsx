@@ -32,8 +32,8 @@ export const rowTwo: Skill[] = [
   { name: "FAISS", icon: <FaSearch />, color: "#3b82f6" },
   { name: "PostgreSQL", icon: <SiPostgresql />, color: "#4169e1" },
   { name: "MySQL", icon: <SiMysql />, color: "#00758f" },
-  { name: "pgvector (basics)", icon: <SiPostgresql />, color: "#4169e1" },
-  { name: "Docker (basics)", icon: <SiDocker />, color: "#2496ed" },
-  { name: "Linux (basics)", icon: <SiLinux />, color: "#fcc624" },
+  { name: "pgvector", icon: <SiPostgresql />, color: "#4169e1" },
+  { name: "Docker", icon: <SiDocker />, color: "#2496ed" },
+  { name: "Linux", icon: <SiLinux />, color: "#fcc624" },
   { name: "Git", icon: <SiGit />, color: "#f05032" },
 ];

@@ -4,6 +4,7 @@ export interface Project {
   tech: string[];
   github: string;
   badge?: string;
+  banner?: string;
 }
 
 export const projects: Project[] = [
@@ -34,5 +35,19 @@ export const projects: Project[] = [
     desc: "Chatbot that answers questions about uploaded documents. Chunks and embeds content into ChromaDB, retrieves relevant context, and generates grounded answers with Gemini through a Streamlit UI.",
     tech: ["Python", "LangChain", "ChromaDB", "Gemini API", "Streamlit"],
     github: "https://github.com/Asrithchowdary/RAG-Resume-Chatbot",
+  },
+    {
+    name: "Incident Management Platform",
+    badge: "Spring Boot",
+    desc: "Spring Boot platform that deduplicates incidents by fingerprint, classifies severity (P1/P2/P3) with a rule engine and anomaly detection, maps incidents to runbooks, and exposes a metrics API and a resolve endpoint. A scheduled scanner and bulk log seeder drive the pipeline.",
+    tech: ["Java 21", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "Maven", "ACtuators", "Restful APIs"],
+    github: "https://github.com/Asrithchowdary/Incident-Management-Platform",
+  },
+  {
+    name: "Inventory and Deals Platform",
+    badge: "Full Stack",
+    desc: "Full-stack inventory and deals app with a Spring Boot REST backend and React frontend: JWT authentication, product browsing and filtering, cart, deals pages and order status, with Razorpay test-mode payments.",
+    tech: ["Java", "Spring Boot", "MySQL", "React", "JWT", "Razorpay", "REST API", "MAVEN",],
+    github: "https://github.com/Asrithchowdary/REPO_NAME",
   },
 ];
