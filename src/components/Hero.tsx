@@ -105,12 +105,14 @@ export default function Hero() {
       </div>
 
       <div className="contact-row">
-        <a href={`mailto:${profile.email}`} className="mini-btn"><FaEnvelope /> Email Me</a>
+        <a href={profile.emailLink} target="_blank" rel="noopener noreferrer" className="mini-btn" title="Email me">
+          <FaEnvelope /> Email Me
+        </a>
         <span>|</span>
-        <a href={profile.github} target="_blank" rel="noopener noreferrer" className="mini-btn" aria-label="GitHub"><FaGithub /></a>
-        <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="mini-btn" aria-label="LinkedIn"><FaLinkedin /></a>
-        <a href={profile.leetcode} target="_blank" rel="noopener noreferrer" className="mini-btn" aria-label="LeetCode"><SiLeetcode /></a>
-        <a href={profile.neetcode} target="_blank" rel="noopener noreferrer" className="mini-btn" aria-label="NeetCode"><FaCode /></a>
+        <a href={profile.github} target="_blank" rel="noopener noreferrer" className="mini-btn" title="GitHub" aria-label="GitHub"><FaGithub /></a>
+        <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="mini-btn" title="LinkedIn" aria-label="LinkedIn"><FaLinkedin /></a>
+        <a href={profile.leetcode} target="_blank" rel="noopener noreferrer" className="mini-btn" title="LeetCode" aria-label="LeetCode"><SiLeetcode /></a>
+        <a href={profile.neetcode} target="_blank" rel="noopener noreferrer" className="mini-btn" title="NeetCode" aria-label="NeetCode"><FaCode /></a>
       </div>
     </section>
   );

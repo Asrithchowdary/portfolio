@@ -13,6 +13,7 @@ export const profile = {
   githubUser: "Asrithchowdary",
   linkedin: "https://www.linkedin.com/in/asrith-chowdary",
   email: "asrithchowdary11@gmail.com",
+  emailLink: "https://mail.google.com/mail/?view=cm&fs=1&to=asrithchowdary11@gmail.com",
   leetcode: "https://leetcode.com/u/AsrithKC/",
   neetcode: "https://neetcode.io/user/FatalKakarot301",
   qrValue: "mailto:asrithchowdary11@gmail.com",

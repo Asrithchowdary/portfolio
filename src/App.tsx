@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { useClickSound } from "./hooks/useClickSound";
 
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="*" element={<Home />} />
         </Routes>
       </Suspense>
+      <Footer />
     </BrowserRouter>
   );
 }
