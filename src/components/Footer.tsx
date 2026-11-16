@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { FaEnvelope, FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 import { profile } from "../data/profile";
+import Pal from "./Pal";
 
 const links = [
   { label: "Email", href: profile.emailLink, icon: <FaEnvelope /> },
@@ -12,7 +13,9 @@ export default function Footer() {
   return (
     <footer className="page footer">
       <div className="dashed-card connect-card">
-        <h3>Let's Connect</h3>
+        <h3>
+          Let's Connect <Pal pal="moss" />
+        </h3>
         <p>Have a role or project in mind? Reach out on any of these.</p>
         <div className="connect-links">
           <Link to="/resume" className="connect-btn">
